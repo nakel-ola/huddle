@@ -31,7 +31,7 @@ const features = () => {
                 <p>${items[i].subtitle}</p>
             </div>
             <picture class="feature__card__right">
-                <img src=${items[i].image} alt="" className="" />
+                <img src=${items[i].image} alt="" />
             </picture>
         </article>
     `;
