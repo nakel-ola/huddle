@@ -22,7 +22,7 @@
 ### Links
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/huddle-lp-w-alternating-feature-blocks-vanilla-css-custom-logo-ZKM8wX_Jzg)
-- Live Site URL: [Live Site at Vercel](https://huddle-landing-page-with-alternating-feature-blocks-eta-lyart.vercel.app/)
+- Live Site URL: [Live Site at Vercel](https://huddle-sepia.vercel.app/)
 ## My process
 
 ### Built with
