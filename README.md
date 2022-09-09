@@ -44,5 +44,5 @@ To build faster a Landing Page
 
 ## Author
 
-- Github - [correlucas](https://github.com/olamilekan21/)
-- Frontend Mentor - [@correlucas](https://www.frontendmentor.io/profile/olamilekan21 )
+- Github - [olamilekan21](https://github.com/olamilekan21/)
+- Frontend Mentor - [@olamilekan21](https://www.frontendmentor.io/profile/olamilekan21 )
