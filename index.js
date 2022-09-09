@@ -25,7 +25,7 @@ const features = () => {
   for (let i = 0; i < items.length; i++) {
     const className = i === 1 ? "feature__card__reverse" : "feature__card"
     const element = `
-        <article class="${className}">
+        <div class="${className}">
             <header class="feature__card__left">
                 <h1>${items[i].title}</h1>
                 <p>${items[i].subtitle}</p>
@@ -33,7 +33,7 @@ const features = () => {
             <picture class="feature__card__right">
                 <img src=${items[i].image} alt="" />
             </picture>
-        </article>
+        </div>
     `;
     elements.push(element);
   }
