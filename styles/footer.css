@@ -22,7 +22,7 @@
 .footer__reel__logo {
   height: 30px;
   padding: 8px;
-  margin-left: 40px;
+  margin-left: 60px;
   margin-right: auto;
 }
 
@@ -34,6 +34,7 @@
 
 .footer__reel__1__inner {
   display: flex;
+  height: 50px;
 }
 
 .footer__reel__1__inner > p {
@@ -91,7 +92,7 @@
   .footer__reel {
     text-align: start;
     margin-right: auto;
-    margin-top: -10px;
+    margin-top: 10px;
   }
   .footer__reel > p {
     text-align: start;
@@ -102,5 +103,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+  .footer__reel__logo {
+    margin-left: 0px;
   }
 }

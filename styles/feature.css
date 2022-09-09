@@ -17,7 +17,14 @@
   box-shadow: rgba(99, 99, 99, 0.1) 0px 1px 5px 0px;
   margin: 10px 0;
   border-radius: 10px;
+  transition: all 0.3s ease;
 }
+
+.feature__card:hover {
+  transform: scale(1.05);
+  margin: 20px 0;
+}
+
 .feature__card__reverse {
   display: flex;
   align-items: center;
@@ -26,6 +33,13 @@
   margin: 10px 0;
   border-radius: 10px;
   flex-direction: row-reverse;
+  transition: all 0.3s ease;
+}
+
+.feature__card__reverse:hover {
+  transform: scale(1.05);
+  margin: 20px 0;
+
 }
 
 .feature__card__left {
