@@ -26,10 +26,10 @@ const features = () => {
     const className = i === 1 ? "feature__card__reverse" : "feature__card"
     const element = `
         <article class="${className}">
-            <div class="feature__card__left">
+            <header class="feature__card__left">
                 <h1>${items[i].title}</h1>
                 <p>${items[i].subtitle}</p>
-            </div>
+            </header>
             <picture class="feature__card__right">
                 <img src=${items[i].image} alt="" />
             </picture>
