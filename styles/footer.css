@@ -3,6 +3,7 @@
   place-items: center;
   background-color: hsl(192, 100%, 9%);
   padding-top: 80px;
+  padding-bottom: 10px;
 }
 
 .footer__container {
@@ -20,9 +21,11 @@
 }
 
 .footer__reel__logo {
-  height: 30px;
+  height: 40px;
   padding: 8px;
-  margin-left: 80px;
+  margin-bottom: 16px;
+  margin-left: 60px;
+  /* background-color: red; */
   margin-right: auto;
 }
 
@@ -39,7 +42,7 @@
 
 .footer__reel__1__inner > p {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: start;
   padding-left: 16px;
   max-width: 200px;
@@ -49,11 +52,14 @@
   width: 18px;
   height: 18px;
   object-fit: contain;
-  margin-top: 20px;
 }
 
-.footer__reel > p {
-  font-size: 15px;
+.footer__reel > li {
+  list-style: none;
+}
+
+.footer__reel > li > a {
+  font-size: 0.938rem;
   color: #fff;
 }
 
@@ -79,7 +85,7 @@
 
 .footer__reel__flex__inner > div > ion-icon {
   color: #fff;
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 @media only screen and (max-width: 768px) {
