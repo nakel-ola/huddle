@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with alternating feature blocks
 
-![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./assets/design/desktop-preview.jpg)
 
 ## Table of contents
 
@@ -17,7 +17,7 @@
 
 ### Screenshot
 
-![](./screenshot/desktop-preview.png)
+![](./assets/screenshot/desktop-preview.png)
 
 ### Links
 
@@ -45,4 +45,4 @@ To build faster a Landing Page
 ## Author
 
 - Github - [olamilekan21](https://github.com/olamilekan21/)
-- Frontend Mentor - [@olamilekan21](https://www.frontendmentor.io/profile/olamilekan21 )
+- Frontend Mentor - [@olamilekan21](https://www.frontendmentor.io/profile/olamilekan21)
