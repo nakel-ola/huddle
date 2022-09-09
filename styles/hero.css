@@ -1,0 +1,135 @@
+.hero__wrapper {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: url("../assets/images/bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+}
+
+.hero__container {
+  width: 90%;
+  height: 100%;
+}
+
+.hero__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.hero__logo {
+  height: 30px;
+}
+
+.hero__logo__img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.hero__button {
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  user-select: none;
+}
+.hero__button:active {
+  transform: scale(0.95);
+}
+
+.hero__button > p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.hero__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.hero__main__left {
+  width: 40%;
+}
+
+.hero__main__left > h1 {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero__main__left > p {
+  font-size: 18px;
+  color: hsl(208, 11%, 55%);
+}
+
+.hero__main__left > button {
+  background-color: hsl(322, 100%, 66%);
+  border: 0;
+  outline: 0;
+  padding: 12px 50px;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.hero__main__right {
+  width: 60%;
+  height: 400px;
+}
+.hero__main__right > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Mobile Devices  */
+  .hero__wrapper {
+    background: url("../assets/images/bg-hero-mobile.svg");
+    background-color: hsl(193, 100%, 96%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero__container {
+    width: 95%;
+    height: 100%;
+  }
+  .hero__button {
+    width: 120px;
+  }
+  .hero__navbar {
+    padding-top: 15px;
+  }
+
+  .hero__main {
+    flex-direction: column;
+  }
+  .hero__main__left {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero__main__left > h1,
+  p {
+    text-align: center;
+  }
+
+  .hero__main__right {
+    width: 90%;
+  }
+}

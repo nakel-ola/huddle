@@ -1,0 +1,106 @@
+.footer__wrapper {
+  display: grid;
+  place-items: center;
+  background-color: hsl(192, 100%, 9%);
+  padding-top: 80px;
+}
+
+.footer__container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer__bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__reel__logo {
+  height: 30px;
+  padding: 8px;
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.footer__reel__logo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer__reel__1__inner {
+  display: flex;
+}
+
+.footer__reel__1__inner > p {
+  color: #fff;
+  font-size: 16px;
+  text-align: start;
+  padding-left: 16px;
+  max-width: 200px;
+}
+
+.footer__reel__1__inner > img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+.footer__reel > p {
+  font-size: 15px;
+  color: #fff;
+}
+
+.footer__reel__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.footer__reel__flex > p {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.footer__reel__flex__inner {
+  display: flex;
+}
+
+.footer__reel__flex__inner > div {
+  margin: 5px 8px;
+}
+
+.footer__reel__flex__inner > div > ion-icon {
+  color: #fff;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__bottom {
+    width: 90%;
+    flex-direction: column;
+    display: static;
+    justify-content: start;
+  }
+  .footer__reel {
+    text-align: start;
+    margin-right: auto;
+    margin-top: -10px;
+  }
+  .footer__reel > p {
+    text-align: start;
+    margin-right: auto;
+  }
+  .footer__reel__flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,40 @@
+.card__wrapper {
+  display: grid;
+  place-items: center;
+  margin-top: 80px;
+  margin-bottom: -50px;
+}
+
+.card__container {
+  width: 40%;
+  height: 100%;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 1px 5px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.card__container > h1 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card__container > button {
+  background-color: hsl(322, 100%, 66%);
+  border: 0;
+  outline: 0;
+  padding: 12px 50px;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .card__container {
+    width: 90%;
+  }
+}
